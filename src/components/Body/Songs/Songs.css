@@ -1,0 +1,23 @@
+.songs {
+  padding: 0 40px;
+  margin: 20px -30px;
+}
+
+.songs__icons {
+  display: flex;
+  align-items: center;
+}
+
+.songs__icons > .MuiSvgIcon-root {
+  margin-right: 20px;
+}
+
+.songs__shuffle {
+  font-size: 80px !important;
+  margin: 20px 50px 20px 0;
+}
+
+.songs__shuffle:hover {
+  transition: 0.1s transform ease-in;
+  transform: scale(1.08);
+}
